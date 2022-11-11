@@ -9,4 +9,4 @@ import defaultController from "./Controller/defaultController.js";
 
 app.use(defaultController);
 
-serverHttp.listen(3306, () => console.log(`Listening at the port 3333`));
+serverHttp.listen(3000, () => console.log(`Listening at the port 3333`));
