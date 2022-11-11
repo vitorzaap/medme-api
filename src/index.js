@@ -14,4 +14,4 @@ app.use(messagesController);
 app.use(conversationController);
 
 
-serverHttp.listen(8877, () => console.log(`Listening at the port 8877`));
+serverHttp.listen(process.env.PORT, () => console.log(`Listening at the port 8877`));
