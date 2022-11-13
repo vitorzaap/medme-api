@@ -1,5 +1,5 @@
 import mysql from "mysql2/promise";
-const fs = require('fs')
+import fs from "fs"
 
 const con = await mysql.createConnection({
 	host: "us-cdbr-east-06.cleardb.net",
